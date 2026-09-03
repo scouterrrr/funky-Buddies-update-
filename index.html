@@ -427,7 +427,7 @@
 
 <section id="opensea" class="band-sky">
   <div class="wrap opensea-wrap">
-    <div class="opensea-badge">
+    <div class="opensea-logo">
       <svg viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="45" cy="45" r="45" fill="#2081E2"/>
         <path d="M22 46.7 22.35 46.15 34.75 27 34.95 26.7C35.15 26.4 35.55 26.45 35.7 26.8 37.75 31.85 39.55 38.1 38.7 42 38.35 43.55 37.3 45.65 36.1 47.4 35.95 47.65 35.8 47.9 35.6 48.1 35.5 48.25 35.35 48.3 35.2 48.3H22.4C22.05 48.3 21.85 47.9 22 47.6L22 46.7Z" fill="white"/>
@@ -447,64 +447,6 @@
   </div>
 </section>
 
-<section id="list" class="band-mint">
-  <div class="wrap">
-    <div class="form-head">
-      <span class="round-tag">FCFS SPOT</span>
-      <h2>Grab your FCFS spot</h2>
-      <p>First come, first served. Open round, limited spots, no guarantees. Every field below is required and strictly checked before it's accepted.</p>
-    </div>
-
-    <p class="hint" style="max-width:60ch;margin-bottom:18px;font-size:14px;">
-      Before you fill the form: first like, retweet and comment on
-      <a href="https://x.com/funkybuddies/status/2094660203392475362" target="_blank" rel="noopener" style="font-weight:700;text-decoration:underline;">this post</a>,
-      then come back and paste the link to your retweet below.
-    </p>
-
-    <div class="panel" id="entryPanel">
-
-      <form id="wlForm" novalidate>
-        <div class="field" id="f-x">
-          <label for="xUsername">X (Twitter) username</label>
-          <div class="input-group">
-            <span class="prefix">@</span>
-            <input type="text" id="xUsername" placeholder="yourhandle" autocomplete="off" maxlength="30">
-          </div>
-          <div class="hint">Only your handle. No spaces, no links, no extra @.</div>
-          <div class="err-msg">Enter a valid X handle (letters, numbers, underscores only).</div>
-        </div>
-
-        <div class="field" id="f-task">
-          <label for="rtLink">Link to your retweet</label>
-          <input type="text" id="rtLink" placeholder="https://x.com/yourhandle/status/..." autocomplete="off">
-          <div class="hint">Only a link is accepted here, nothing else.</div>
-          <div class="err-msg">Paste a valid x.com/twitter.com link, and only that.</div>
-        </div>
-
-        <div class="field" id="f-evm">
-          <label for="evmAddress">EVM wallet address</label>
-          <input type="text" id="evmAddress" placeholder="0x..." autocomplete="off" maxlength="42">
-          <div class="hint">Only a wallet address is accepted here, nothing else.</div>
-          <div class="err-msg">Must be exactly 0x followed by 40 hex characters.</div>
-        </div>
-
-        <button type="submit" class="submit-btn" id="submitBtn">SUBMIT ENTRY</button>
-        <div class="form-msg" id="formMsg"></div>
-      </form>
-
-      <div class="confirm-step" id="confirmStep">
-        <p class="confirm-note">One tap left. Hit <strong>Done</strong> below to lock in your entry.</p>
-        <iframe id="smFrame" title="Confirm your entry" src="about:blank"></iframe>
-      </div>
-
-      <div class="success-panel" id="successPanel">
-        <div class="success-check">✓</div>
-        <h3>Submitted</h3>
-        <p id="successDetail">You're on the FCFS list. We'll reach out if you're selected.</p>
-      </div>
-
-    </div>
-  </div>
 </section>
 
 <footer>
